@@ -119,7 +119,23 @@
             </div>
         </div>
     </nav>
-    
+    <section>
+    <audio id="miAudio" controls autoplay loop>
+        <source src="Himno a San Martin.mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+
+    <!-- Script opcional para controlar la reproducción 
+    <script>
+        // Para asegurar la reproducción (necesario en algunos navegadores)
+        document.addEventListener('DOMContentLoaded', function() {
+            const audio = document.getElementById('miAudio');
+            audio.play().catch(e => console.log("Error al reproducir:", e));
+        });
+    </script>
+    -->
+    </section>     
     <!-- Hero Section -->
     <section class="hero-section">
         <div class="hero-overlay">
@@ -244,23 +260,7 @@
             </div>
         </div>
     </section>
-    <section>
-    <audio id="miAudio" controls autoplay loop>
-        <source src="Himno a San Martin.mp3" type="audio/mp3">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
 
-
-    <!-- Script opcional para controlar la reproducción 
-    <script>
-        // Para asegurar la reproducción (necesario en algunos navegadores)
-        document.addEventListener('DOMContentLoaded', function() {
-            const audio = document.getElementById('miAudio');
-            audio.play().catch(e => console.log("Error al reproducir:", e));
-        });
-    </script>
-    -->
-    </section> 
 
     <!-- Footer -->
     <footer class="footer">
