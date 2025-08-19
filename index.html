@@ -29,7 +29,10 @@
             font-family: 'Playfair Display', serif;
             color: var(--sepia);
         }
-        
+        #musica {
+            width: 99%;
+            display: inline;
+        }
         .navbar {
             background: linear-gradient(to right, var(--celeste), white);
             border-bottom: 3px solid var(--dorado);
@@ -119,8 +122,9 @@
             </div>
         </div>
     </nav>
-    <section>
-    <audio id="miAudio" controls autoplay loop>
+    <section id="musica">
+        <h4 width="49%">Presione para escuchar la música de fondo</h4>
+        <audio width="49%" id="miAudio" controls autoplay loop>
         <source src="Himno a San Martin.mp3" type="audio/mp3">
         Tu navegador no soporta el elemento de audio.
     </audio>
